@@ -34,7 +34,7 @@ public class CloudCreateTableAndImportData {
         // The region is meaningless for local DynamoDb but required for client builder validation
         .region(Region.US_WEST_2)
         .credentialsProvider(StaticCredentialsProvider.create(
-            AwsBasicCredentials.create("AKIAZS7KSSKKXYWQ3E2A", "hozCHUMM4kgPOGxA6XrCevzuh57gMXHOY215tCLV")))
+            AwsBasicCredentials.create("YOUR_ACCESS", "YOUR_ACCESS")))
         .build();
 
     String file = "storyline.json";
